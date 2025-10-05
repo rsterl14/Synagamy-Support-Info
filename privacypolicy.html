@@ -1,331 +1,238 @@
 <!DOCTYPE html>
-  <html lang="en">
-  <head>
-      <meta charset="UTF-8">
-      <meta name="viewport" content="width=device-width, initial-scale=1.0">
-      <title>Synagamy - Privacy Policy</title>
-      <style>
-          * {
-              margin: 0;
-              padding: 0;
-              box-sizing: border-box;
-          }
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Synagamy - Support & Information</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
 
-          body {
-              font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI',
-  Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
-              line-height: 1.6;
-              color: #333;
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-              min-height: 100vh;
-              padding: 20px;
-          }
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
 
-          .container {
-              max-width: 800px;
-              margin: 0 auto;
-              background: white;
-              border-radius: 20px;
-              padding: 40px;
-              box-shadow: 0 20px 60px rgba(0,0,0,0.3);
-          }
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            padding: 40px;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.3);
+        }
 
-          .header {
-              text-align: center;
-              margin-bottom: 40px;
-              padding-bottom: 30px;
-              border-bottom: 2px solid #f0f0f0;
-          }
+        .header {
+            text-align: center;
+            margin-bottom: 40px;
+            padding-bottom: 30px;
+            border-bottom: 2px solid #f0f0f0;
+        }
 
-          .logo {
-              width: 60px;
-              height: 60px;
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-              border-radius: 15px;
-              margin: 0 auto 15px;
-              display: flex;
-              align-items: center;
-              justify-content: center;
-              font-size: 30px;
-              color: white;
-          }
+        .logo {
+            width: 80px;
+            height: 80px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 20px;
+            margin: 0 auto 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 40px;
+            color: white;
+        }
 
-          h1 {
-              color: #667eea;
-              font-size: 2.2em;
-              margin-bottom: 10px;
-          }
+        h1 {
+            color: #667eea;
+            font-size: 2.5em;
+            margin-bottom: 10px;
+        }
 
-          .updated {
-              color: #666;
-              font-style: italic;
-              font-size: 0.95em;
-          }
+        .tagline {
+            color: #666;
+            font-size: 1.1em;
+        }
 
-          h2 {
-              color: #667eea;
-              margin-top: 30px;
-              margin-bottom: 15px;
-              font-size: 1.6em;
-          }
+        h2 {
+            color: #667eea;
+            margin-top: 30px;
+            margin-bottom: 15px;
+            font-size: 1.8em;
+        }
 
-          .section {
-              margin-bottom: 25px;
-          }
+        .section {
+            margin-bottom: 30px;
+        }
 
-          p {
-              margin-bottom: 15px;
-              color: #333;
-          }
+        .contact-box {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 25px;
+            border-radius: 15px;
+            margin: 20px 0;
+            text-align: center;
+        }
 
-          strong {
-              color: #764ba2;
-          }
+        .contact-box a {
+            color: white;
+            font-size: 1.2em;
+            text-decoration: none;
+            font-weight: 600;
+            border-bottom: 2px solid rgba(255,255,255,0.5);
+            padding-bottom: 3px;
+        }
 
-          ul {
-              padding-left: 20px;
-              margin-bottom: 15px;
-          }
+        .contact-box a:hover {
+            border-bottom-color: white;
+        }
 
-          ul li {
-              margin-bottom: 8px;
-              color: #666;
-          }
+        .faq-item {
+            background: #f8f9fa;
+            padding: 20px;
+            border-radius: 10px;
+            margin-bottom: 15px;
+            border-left: 4px solid #667eea;
+        }
 
-          .contact {
-              background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-              color: white;
-              padding: 25px;
-              border-radius: 15px;
-              margin-top: 40px;
-          }
+        .faq-question {
+            font-weight: 600;
+            color: #333;
+            margin-bottom: 8px;
+            font-size: 1.1em;
+        }
 
-          .contact h2 {
-              color: white;
-              margin-top: 0;
-          }
+        .faq-answer {
+            color: #666;
+        }
 
-          .contact p {
-              color: white;
-              margin-bottom: 10px;
-          }
+        .feature-list {
+            list-style: none;
+            padding-left: 0;
+        }
 
-          .contact strong {
-              color: rgba(255,255,255,0.9);
-          }
+        .feature-list li {
+            padding: 10px 0;
+            padding-left: 30px;
+            position: relative;
+        }
 
-          hr {
-              margin-top: 40px;
-              border: none;
-              border-top: 2px solid #f0f0f0;
-          }
+        .feature-list li:before {
+            content: "✓";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+            font-size: 1.2em;
+        }
 
-          .footer {
-              text-align: center;
-              color: #999;
-              font-size: 0.9em;
-              margin-top: 20px;
-          }
+        .footer {
+            text-align: center;
+            margin-top: 40px;
+            padding-top: 30px;
+            border-top: 2px solid #f0f0f0;
+            color: #999;
+            font-size: 0.9em;
+        }
 
-          .intro-box {
-              background: #f8f9fa;
-              padding: 20px;
-              border-radius: 10px;
-              border-left: 4px solid #667eea;
-              margin-bottom: 30px;
-          }
+        a {
+            color: #667eea;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="logo">🧬</div>
+            <h1>Synagamy</h1>
+            <p class="tagline">Your Complete Fertility Journey Companion</p>
+        </div>
 
-          .intro-box p {
-              margin-bottom: 0;
-          }
-      </style>
-  </head>
-  <body>
-      <div class="container">
-          <div class="header">
-              <div class="logo">🔒</div>
-              <h1>Privacy Policy</h1>
-              <p class="updated">Last Updated: January 2025</p>
-          </div>
+        <div class="section">
+            <h2>Support & Contact</h2>
+            <div class="contact-box">
+                <p>Need help or have questions?</p>
+                <a href="mailto:synagamyfertility@gmail.com">synagamyfertility@gmail.com</a>
+            </div>
+            <p>We typically respond within 24-48 hours. For urgent technical issues, please include your device model and iOS version.</p>
+        </div>
 
-          <div class="intro-box">
-              <p><strong>Important:</strong> Synagamy is designed with
-  privacy as a core principle. We do not collect, transmit, or store your
-  personal health information on our servers.</p>
-          </div>
+        <div class="section">
+            <h2>About Synagamy</h2>
+            <p>Synagamy is an evidence-based fertility app designed to empower individuals and couples navigating fertility treatment, preservation, and conception. Created by an Embryologist and grounded in medical research, Synagamy transforms complex reproductive science into accessible, actionable guidance.</p>
 
-          <div class="section">
-              <h2>Introduction</h2>
-              <p>Synagamy ("we," "our," or "us") is committed to protecting
-  your privacy. This Privacy Policy explains how we handle information when
-  you use the Synagamy mobile application (the "App").</p>
-          </div>
+            <h3 style="color: #764ba2; margin-top: 20px;">Key Features:</h3>
+            <ul class="feature-list">
+                <li>IVF Outcome Predictor - Personalized success predictions</li>
+                <li>Embryo Transfer Success Predictor - Pre-transfer estimates</li>
+                <li>Timed Intercourse Tracker - Optimize conception timing</li>
+                <li>Pathway Explorer - Navigate treatment options</li>
+                <li>Comprehensive Education Center - Expert-created content</li>
+                <li>Clinic Finder - Locate fertility clinics nearby</li>
+                <li>Privacy-First Design - All data stays on your device</li>
+            </ul>
+        </div>
 
-          <div class="section">
-              <h2>Data Collection</h2>
-              <p>Synagamy does not collect personal health information. All
-  fertility predictions and calculations are performed locally on your
-  device.</p>
-              <p>We do not:</p>
-              <ul>
-                  <li>Collect personal identifying information</li>
-                  <li>Track your usage or behavior</li>
-                  <li>Use analytics or advertising services</li>
-                  <li>Share data with third parties</li>
-                  <li>Transmit medical data to our servers or any external
-  services</li>
-              </ul>
-          </div>
+        <div class="section">
+            <h2>Frequently Asked Questions</h2>
 
-          <div class="section">
-              <h2>Data Storage</h2>
-              <p>Your input data and prediction results are stored
-  <strong>locally on your device only</strong> using encrypted iOS Keychain
-  storage. This storage:</p>
-              <ul>
-                  <li>Requires your explicit consent before any medical data
-   is saved</li>
-                  <li>Uses industry-standard iOS Keychain encryption</li>
-                  <li>Is protected by your device's security features
-  (passcode, Face ID, Touch ID)</li>
-                  <li>Never leaves your device</li>
-                  <li>Is never transmitted to our servers or any third
-  parties</li>
-              </ul>
-          </div>
+            <div class="faq-item">
+                <div class="faq-question">Is my data private and secure?</div>
+                <div class="faq-answer">Absolutely. All your personal health data is stored locally on your device using iOS Keychain encryption. We never transmit your data to cloud servers, and we don't collect any analytics or tracking information.</div>
+            </div>
 
-          <div class="section">
-              <h2>Educational Content</h2>
-              <p>Synagamy provides educational content about fertility and
-  reproductive health. This content is hosted on GitHub's servers
-  (raw.githubusercontent.com).</p>
-              <p>When you access educational materials:</p>
-              <ul>
-                  <li>Your device connects to GitHub's servers to retrieve
-  content</li>
-                  <li>No personal or medical data is sent with these
-  requests</li>
-                  <li>GitHub may log standard connection information (IP
-  address, time) per their own privacy policy</li>
-                  <li>We do not control or have access to GitHub's logs</li>
-              </ul>
-          </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I delete my saved data?</div>
+                <div class="faq-answer">Go to Settings → My Medical Data → Delete All Data. This will permanently remove all saved predictions and medical information from your device.</div>
+            </div>
 
-          <div class="section">
-              <h2>Your Rights and Control</h2>
-              <p>You have complete control over your data:</p>
-              <ul>
-                  <li><strong>View:</strong> Access all stored data at any
-  time through Settings > Data Management</li>
-                  <li><strong>Delete:</strong> Permanently delete all app
-  data instantly</li>
-                  <li><strong>Revoke Consent:</strong> Withdraw consent for
-  data storage, which immediately deletes all medical data</li>
-                  <li><strong>No Account Required:</strong> All data stays
-  on your device; no account or registration needed</li>
-              </ul>
-          </div>
+            <div class="faq-item">
+                <div class="faq-question">Can I use this app instead of seeing a doctor?</div>
+                <div class="faq-answer">No. Synagamy is designed exclusively for educational and informational purposes. Always consult with qualified healthcare professionals for personalized medical advice, diagnosis, and treatment decisions.</div>
+            </div>
 
-          <div class="section">
-              <h2>Security</h2>
-              <p>We take the security of your medical information
-  seriously:</p>
-              <ul>
-                  <li>All medical data is encrypted using iOS Keychain,
-  Apple's most secure storage mechanism</li>
-                  <li>Data is protected by your device's built-in security
-  (passcode, biometric authentication)</li>
-                  <li>Data never leaves your device</li>
-                  <li>No cloud backups of medical data (unless you enable
-  iCloud Keychain on your device)</li>
-              </ul>
-          </div>
+            <div class="faq-item">
+                <div class="faq-question">Are the IVF predictions accurate?</div>
+                <div class="faq-answer">Our predictions are based on peer-reviewed research and population data. However, they are estimates only and cannot account for individual medical factors. Use them to set realistic expectations and inform discussions with your fertility specialist.</div>
+            </div>
 
-          <div class="section">
-              <h2>Third-Party Services</h2>
-              <p>Synagamy uses the following third-party service:</p>
-              <ul>
-                  <li><strong>GitHub (raw.githubusercontent.com):</strong>
-  Used to host and deliver educational content. No personal or medical data
-  is transmitted to GitHub.</li>
-              </ul>
-              <p>We do not use:</p>
-              <ul>
-                  <li>Analytics services</li>
-                  <li>Advertising networks</li>
-                  <li>Tracking or attribution services</li>
-                  <li>Cloud storage for user data</li>
-              </ul>
-          </div>
+            <div class="faq-item">
+                <div class="faq-question">What iOS version do I need?</div>
+                <div class="faq-answer">Synagamy requires iOS 16.0 or later.</div>
+            </div>
 
-          <div class="section">
-              <h2>Children's Privacy</h2>
-              <p>Synagamy is not directed at children under 13 years of age.
-   The app provides fertility and reproductive health information intended
-  for adults. We do not knowingly collect information from children under
-  13.</p>
-          </div>
+            <div class="faq-item">
+                <div class="faq-question">How do I report a bug or request a feature?</div>
+                <div class="faq-answer">Email us at synagamyfertility@gmail.com with details about the issue or your feature request. We value your feedback!</div>
+            </div>
+        </div>
 
-          <div class="section">
-              <h2>Medical Disclaimer</h2>
-              <p>Synagamy is an educational tool only and is not a medical
-  device. It does not provide medical advice, diagnosis, or treatment.
-  Always consult with qualified healthcare professionals for medical
-  decisions.</p>
-          </div>
+        <div class="section">
+            <h2>Privacy Policy</h2>
+            <p><strong>Data Collection:</strong> Synagamy does not collect, transmit, or store any personal information on external servers.</p>
+            <p><strong>Local Storage:</strong> All fertility data you choose to save is encrypted and stored locally on your device using iOS Keychain.</p>
+            <p><strong>No Analytics:</strong> We do not use analytics services or tracking technologies.</p>
+            <p><strong>Location:</strong> Location permission is only used to help you find nearby fertility clinics. Your location is never stored or transmitted.</p>
+            <p><strong>Your Control:</strong> You can view or delete all saved data at any time through the app's Settings.</p>
+        </div>
 
-          <div class="section">
-              <h2>Changes to This Privacy Policy</h2>
-              <p>We may update this Privacy Policy from time to time.
-  Changes will be posted on this page with an updated "Last Updated" date.
-  Significant changes will be communicated through the app.</p>
-              <p>Your continued use of the app after changes indicates your
-  acceptance of the updated Privacy Policy.</p>
-          </div>
+        <div class="section">
+            <h2>Medical Disclaimer</h2>
+            <p>This application is designed exclusively for educational and informational purposes. The content provided, including fertility tracking tools, prediction models, and educational materials, should never be used as a substitute for professional medical advice, diagnosis, or treatment.</p>
+            <p>Always consult with qualified healthcare professionals, including reproductive endocrinologists, fertility specialists, or your primary care physician, for personalized medical guidance regarding fertility, reproductive health, and treatment decisions.</p>
+            <p>This app is not a medical device and has not been evaluated by Health Canada, the FDA, or other regulatory bodies.</p>
+        </div>
 
-          <div class="section">
-              <h2>Data Retention</h2>
-              <p>Since all data is stored locally on your device:</p>
-              <ul>
-                  <li>We do not retain any of your data on our servers
-  (because we don't collect it)</li>
-                  <li>Data persists on your device until you delete it or
-  uninstall the app</li>
-                  <li>Uninstalling the app permanently deletes all locally
-  stored data</li>
-              </ul>
-          </div>
-
-          <div class="section">
-              <h2>Your California Privacy Rights</h2>
-              <p>If you are a California resident, you have additional
-  rights under the California Consumer Privacy Act (CCPA). However, since
-  Synagamy does not collect, store, or share personal information, these
-  rights do not apply to our app's operation.</p>
-          </div>
-
-          <div class="section">
-              <h2>European Privacy Rights (GDPR)</h2>
-              <p>If you are in the European Economic Area, you have rights
-  under the General Data Protection Regulation (GDPR). However, since
-  Synagamy does not collect or process personal data on servers, GDPR data
-  processing obligations do not apply to our app's core functionality.</p>
-          </div>
-
-          <div class="contact">
-              <h2>Contact Us</h2>
-              <p>If you have questions about this Privacy Policy or our
-  privacy practices, please contact us at:</p>
-              <p><strong>Email:</strong> synagamyfertility@gmail.com</p>
-              <p><strong>App Support:</strong> Available through Settings >
-  About > Contact Support</p>
-          </div>
-
-          <hr>
-          <p class="footer">
-              © 2025 Synagamy. All rights reserved.<br>
-              This privacy policy is effective as of January 2025.
-          </p>
-      </div>
-  </body>
-  </html>
+        <div class="footer">
+            <p>&copy; 2025 Synagamy. All rights reserved.</p>
+            <p>Developed by an Embryologist</p>
+        </div>
+    </div>
+</body>
+</html>
